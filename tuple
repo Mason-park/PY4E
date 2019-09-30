@@ -1,0 +1,28 @@
+# 튜플 : list 랑 거의 비슷 ()
+
+a = tuple()
+b = ()
+
+print(a)
+print(b)
+
+t = (1,5,7,1,2,6,30,55)
+
+l = len(t)
+s = sum(t)
+
+print(l)
+print(s)
+
+print(30 in t)
+print(t.index(30))
+
+# 튜플에서 안되는 것 : 바꿔끼우기가 안됨 #변하면 안되는 것에 쓰임
+
+z = [1,2,3]   #리스트
+z[0] = 50
+print(z)
+
+x = (1,2,3)
+x[0] = 50
+print(x)
