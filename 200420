@@ -1,0 +1,6 @@
+user_name = input('what is your name?')
+print(user_name, 'welcome!')
+
+user_age = int(input('how old are you?'))
+print(user_age, '?!, I cant believe it.')
+print('you look like ', user_age-4, 'years old.')
