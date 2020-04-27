@@ -1,0 +1,13 @@
+## 문자열 관련 함수들
+#1 .format()
+
+print("안녕 내이름은 {}".format("민수"))
+
+saying = "안녕 내이름은 {}"
+name = input("너의 이름은?")
+print(saying.format(name))
+
+intro = "안녕 나는 {} 이고 {} 살이야"
+name = input("이름?")
+year = input("나이?")
+print(intro.format(name,year))
